@@ -1,0 +1,11 @@
+diff -ru bootp-2.4.3.orig/report.c bootp-2.4.3/report.c
+--- bootp-2.4.3.orig/report.c	2020-06-19 11:13:36.673547921 -0400
++++ bootp-2.4.3/report.c	2020-06-19 11:19:29.279204454 -0400
+@@ -10,6 +10,7 @@
+ 
+ #include <stdio.h>
+ #include <syslog.h>
++#include <errno.h>
+ 
+ #include "report.h"
+ 
