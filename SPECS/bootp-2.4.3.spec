@@ -20,6 +20,12 @@ Summary(fr): Serveur bootp/DHCP et programmes test
 Summary(tr): \x62\x6f\x6f\x74\x70\x2f\x44\x48\x43\x50\x20\x73\x75\x6e\x75\x63\x75\x73\x75\x20\x76\x65\x20\x74\x65\x73\x74\x20\x70\x72\x6f\x67\x72\x61\x6d\x6c\x61\x72\xc3\xbd
 
 %changelog
+* Fri Jun 19 2020 Alexander Jacocks <alexander@redhat.com>
+
+- fixed the translations, by converting to UTF-8 encoding
+- patched report.c by explicitly including errnoh.
+- moved the manpages to the modern location
+
 * Mon Jun 01 1998 Prospector System <bugs@redhat.com>
 
 - translations modified for de
